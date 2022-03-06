@@ -1,4 +1,4 @@
-package com.jlcindia.springboot.controller;
+package com.jlcindia.springboot;
 
 import java.math.BigDecimal;
 
