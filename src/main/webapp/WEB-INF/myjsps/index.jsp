@@ -1,5 +1,3 @@
-<%-- <!DOCTYPE html>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%> --%>
 <html>
 <head>
 <title>JLC Bookstore</title>
