@@ -6,9 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MyBootApplication {
 	public static void main(String as[]) {
-		System.out.println("Hello Java1");
-		System.out.println("Hello Java2");
-		System.out.println("Hello Java3");
 		SpringApplication.run(MyBootApplication.class, as);
 	}
 }
