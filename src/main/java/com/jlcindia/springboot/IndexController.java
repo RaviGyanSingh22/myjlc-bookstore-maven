@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class IndexController {
 	@GetMapping("/test")
 	public List<BookInfo> showIndexPage() {
-		System.out.println("---------showIndexPage 4---------");
+		System.out.println("---------showIndexPage 5---------");
 
 		List<BookInfo> blist = new ArrayList<>();
 
