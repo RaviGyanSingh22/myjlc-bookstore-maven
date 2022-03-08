@@ -3,7 +3,7 @@ node{
     stage("my-code-checkout"){
         git branch:'jlcmaster',
         url:'https://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@github.com/RaviGyanSingh22/myjlc-bookstore-maven.git'
-        echo "Checkout completed successfully"
+        echo "Code Checkout completed successfully"
     }//stage end
     
      stage("my-code-compile"){
