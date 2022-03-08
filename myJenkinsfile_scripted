@@ -1,0 +1,23 @@
+node{
+    
+    stage("my-code-checkout"){
+        git branch:'jlcmaster',
+        url:'https://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@github.com/RaviGyanSingh22/myjlc-bookstore-maven.git'
+        echo "Checkout completed successfully"
+    }//stage end
+    
+     stage("my-code-compile"){
+       sh 'mvn clean compile'
+        echo "Compilation completed successfully"
+    }//stage end
+    
+    stage("my-unit-testing"){
+       sh 'mvn test'
+        echo "Testing completed successfully"
+    }//stage end
+    
+    stage("my-code-packaging"){
+       sh 'mvn package'
+        echo "Packaging completed successfully"
+    }//stage end
+}
